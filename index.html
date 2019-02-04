@@ -15,6 +15,14 @@
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
   </head>
   <body>
     
@@ -37,6 +45,8 @@
             <li class="active"><a href="#" data-nav-section="home">Home</a></li>
             <li><a href="#" data-nav-section="groom-bride">Groom &amp; Bride</a></li>
             <li><a href="#" data-nav-section="when-where">When &amp; Where</a></li>
+            <li><a href="#" data-nav-section="gallery">Gallery</a></li>
+            <li><a href="#" data-nav-section="rsvp">RSVP</a></li>
             <!-- <li><a href="#" data-nav-section="gallery">Gallery</a></li>
             <li><a href="#" data-nav-section="rsvp">RSVP</a></li> -->
           </ul>
@@ -120,13 +130,13 @@
           <div class="col-md-6 probootstrap-animate">
             <p><img src="img/wedding.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive img-rounded"></p>
             <h3>Wedding</h3>
-            <p>February 08, 2019</p>
+            <p>February 09, 2019</p>
             <p>Sun City garden Gwalior</p>
           </div>
           <div class="col-md-6 probootstrap-animate">
               <p><img src="img/reception.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive img-rounded"></p>
               <h3>Reception</h3>
-              <p>February 08, 2019</p>
+              <p>February 09, 2019</p>
               <p>Sun City garden Gwalior</p>
           </div>
         </div>
@@ -134,47 +144,126 @@
     </div>
     <!-- <div id="map"></div> -->
 
-    <section class="probootstrap-section probootstrap-border-top" data-section="rsvp">
-      <div class="container">
-        <div class="row mb40">
-          <div class="col-md-12 text-center">
-            <h2 class="mt0 mb10 probootstrap-animate">Will you attend?</h2>
-            <p>Please sign your RSVP</p>
+    <section class="probootstrap-section" data-section="gallery">
+        <div class="container">
+          <div class="row mb40 probootstrap-animate">
+            <div class="col-md-12 text-center"><h2>Gallery</h2></div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="probootstrap-card probootstrap-animate">
-              <form class="probootstrap-form">
-                <div class="form-group">
-                  <label for="name">Your Name</label>
-                  <input type="text" class="form-control" id="name">
+  
+          <div class="row probootstrap-gutter30">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="row probootstrap-gutter30">
+                <div class="col-md-6 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_3.jpg" style="background-image: url(img/img_3.jpg)">
+                    <div class="probootstrap-image-for-popup"><img src="img/img_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
+                  </a>
                 </div>
-                <div class="form-group">
-                  <label for="email">Your Email</label>
-                  <input type="text" class="form-control" id="email">
+                <div class="col-md-6 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_2.jpg" style="background-image: url(img/img_2.jpg)">
+                    <div class="probootstrap-image-for-popup"><img src="img/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
+                  </a>
                 </div>
-                <div class="form-group">
-                  <p>Will you attend?</p>
-                  <label for="yes"><input type="checkbox" id="yes"> Yes, I will be there</label> <br>
-                  <label for="no"><input type="checkbox" id="no"> Sorry, I can't come</label> <br>
+              </div>
+              <div class="row probootstrap-gutter30">
+                <div class="col-md-12 probootstrap-animate">
+                  <a class="probootstrap-image image-popup" href="img/img_1.jpg" style="background-image: url(img/img_1.jpg)">
+                    <div class="probootstrap-image-for-popup"><img src="img/img_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
+                  </a>
                 </div>
-                <div class="form-group">
-                  <label for="note">Note</label>
-                  <textarea name="" id="note" cols="20" rows="5" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="row probootstrap-gutter30">
+                <div class="col-md-6">
+                  <div class="row probootstrap-gutter30">
+                    <div class="col-md-12 probootstrap-animate">
+                      <a class="probootstrap-image image-popup" href="img/img_4.jpg" style="background-image: url(img/img_4.jpg)">
+                        <div class="probootstrap-image-for-popup"><img src="img/img_4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
+                      </a>
+                    </div>
+                    <div class="col-md-12 probootstrap-animate">
+                      <a class="probootstrap-image image-popup" href="img/img_5.jpg" style="background-image: url(img/img_5.jpg)">
+                        <div class="probootstrap-image-for-popup"><img src="img/img_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="submit" class="btn btn-primary btn-lg" value="Send RSVP">
+                <div class="col-md-6 probootstrap-animate">
+                  <a class="probootstrap-image  height-2x image-popup" href="img/bride_1.jpg" style="background-image: url(img/bride_1.jpg)">
+                    <div class="probootstrap-image-for-popup"><img src="img/bride_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></div>
+                  </a>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
+          <!-- END row -->
+  
+  
+          <!-- END row -->
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="probootstrap-section probootstrap-border-top" data-section="rsvp">
+          <div class="container">
+            <div class="row mb40">
+              <div class="col-md-12 text-center">
+                  <img src="img/invitation.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive " >
+                <p> Mr and Mrs nayak invited you n your family to grace the occasion</p>
+                <h2 class="mt0 mb10 probootstrap-animate">Will you attend?</h2>
+                <p>Please sign your RSVP</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <div class="probootstrap-card probootstrap-animate">
+                  <form class="probootstrap-form">
+                  
+                    <div class="form-group">
+                      <label for="name">Your Name</label>
+                      <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Your Email</label>
+                      <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                      <p>Will you attend?</p>
+                      <label for="yes"><input type="checkbox" id="yes"> Yes, I will be there</label> <br>
+                      <label for="no"><input type="checkbox" id="no"> Sorry, I can't come</label> <br>
+                    </div>
+                    <div class="form-group">
+                      <label for="note">Note</label>
+                      <textarea name="" id="note" cols="20" rows="5" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-primary btn-lg" value="Send RSVP" onclick="sendMail(); return false">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
     <script src="js/scripts.min.js"></script>
     <script src="js/custom.min.js"></script>
+    <script>
+      function sendMail() {
+        var name= document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+
+        if( name==""){
+          alert("Please enter your name!!")
+        }else if (email==""){
+          alert("Please enter your email!!")
+        }else if(document.getElementById('yes').checked == false && document.getElementById('no').checked == false){
+          alert("Please confirm your arrival!!")
+        }else{
+          alert("Thank you!! Your Response has been saved!!")
+        }
+        
+}
+    </script>
 
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm1giP-yutAWV3jG4VEhb10aycY4i7TqA&sensor=false"></script>
